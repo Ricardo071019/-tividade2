@@ -19,3 +19,4 @@ Route::get('/', function () {
 */
 
 Route::get('/', 'App\Http\Controllers\livrosController@index')-> name('livros.index');
+
