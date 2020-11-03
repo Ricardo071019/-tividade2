@@ -20,3 +20,7 @@ Route::get('/', function () {
 
 Route::get('/', 'App\Http\Controllers\livrosController@index')-> name('livros.index');
 
+Route::get('/autor', 'App\Http\Controllers\autoresController@index')-> name('autores.index');
+
+
+Route::get('/editoras', 'App\Http\Controllers\editorasController@index')-> name('editoras.index');
