@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Editora;
 
-class livrosController extends Controller
+class EditorasController extends Controller
 {
     public function index(){
     	$editoras = Editora::paginate(4);

@@ -3,12 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Editora;
+use App\Models\Genero;
 
-class livrosController extends Controller
+class GenerosController extends Controller
 {
     public function index(){
-    	$generos = generos::paginate(4);
+    	$generos = genero::paginate(4);
     	return view ('generos.index', [
     	'generos'=>$generos]);
 	}
@@ -16,3 +16,4 @@ class livrosController extends Controller
 
 
   }
+ 

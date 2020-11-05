@@ -9,7 +9,7 @@ class Autor extends Model
 {
     use HasFactory;
   
-	protected $primarykey='ida';
+	protected $primaryKey='ida';
 	protected $table ='autores';
 }
 

@@ -3,3 +3,4 @@
 <li>{{$editora->nome}}</li>
 @endforeach
 </ul>
+{{$editoras->render()}}

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Autor;
 
-class autoresController extends Controller
+class AutoresController extends Controller
 {
    public function index(){
    	$autores = Autor::all()->sortbydesc('ida');
