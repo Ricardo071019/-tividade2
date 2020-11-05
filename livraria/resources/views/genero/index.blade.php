@@ -1,5 +1,5 @@
 <ul>
-@foreach($Editora as $editoras)
-<li>{{$editoras->nome}}</li>
+@foreach($genero as $generos)
+<li>{{$generos->nome}}</li>
 @endforeach
 </ul>
